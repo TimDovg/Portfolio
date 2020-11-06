@@ -1,0 +1,161 @@
+/* avatar config */
+
+.image-avatar {
+    transform: scale(0.06);
+    position: relative;
+    bottom: 1167px;
+    right: 1176px;
+}
+
+html {
+    box-sizing: border-box;
+    letter-spacing: 1.37px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #4776b9;
+    color: #0e0e0e;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1c1c1a;
+    font-size: 14px;
+    padding-bottom: 1px;
+    border-bottom: 0.5px solid #0e0e0ed4;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #10100e;
+    font-size: 34px;
+    margin: 25px 0 5px 0;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+}
+
+h3::after {
+    content: "";
+    height: 1px;
+    width: 50%;
+    background: #ffa700;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.position {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ffa700;
+}
+
+.avatar {
+    margin-right: 20px;
+    height: 130px;
+    width: 130px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.resume-wrap,
+header {
+    position: relative;
+}
+
+.resume-wrap {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 960px;
+    background: #f8f8f8;
+    margin: 50px auto;
+    padding: 30px 50px;
+    box-sizing: border-box;
+}
+
+.education-grid-container,
+.experience-grid-container {
+    display: grid;
+    grid-template-columns: 25% auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 70% auto 25%;
+    grid-column-gap: 30px;
+}
+
+.fab {
+    margin-bottom: 10px;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: auto 80%;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 100%;
+    background: #ccc;
+}
+
+.top-line-content {
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title-name {
+    margin: -5px 0 15px 0;
+}
+
+.triangle-topleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 1400px solid #6d6d6d;
+    border-right: 1400px solid transparent;
+}
+
+.experience-duration {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.experience {
+    padding: 10px;
+}
+
+.block {
+    margin-bottom: 20px;
+}

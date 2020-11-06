@@ -9,7 +9,7 @@ const INFO = {
             project: 'Choicely',
             projectDescription: 'application with many widgets and builders for developing articles, feeds, polls, surveys and mobile apps without coding',
             teamQuantity: 10,
-            position: 'Frontend developer',
+            position: 'Frontend Developer',
             responsibilities: ['developing mobile apps builders'],
             instrumentsAndTechnologies: ['JavaScript', 'React', 'Redux', 'redux-saga', 'react-beautiful-dnd', 'react-table', 'redux-form']
         },
@@ -19,7 +19,7 @@ const INFO = {
             project: 'Intranet',
             projectDescription: 'employee management system with mailing about company news to employees\' mail. Displaying the employee vacation diagram for the head of the company',
             teamQuantity: 15,
-            position: 'Frontend developer',
+            position: 'Frontend Developer',
             responsibilities: ['visualization of the employee vacation schedule', 'mail sending', 'writing end-to-end tests'],
             instrumentsAndTechnologies: ['JavaScript', 'TypeScript', 'React', 'Redux', 'Jest', 'Cypress', 'SASS/LESS', 'Git']
         },
@@ -29,7 +29,7 @@ const INFO = {
             project: 'CRM Andersen',
             projectDescription: 'CRM system with different roles as a head for customers and company employees management',
             teamQuantity: 20,
-            position: 'Frontend developer',
+            position: 'Frontend Developer',
             responsibilities: ['filtering', 'creating large tables and working with its internal data'],
             instrumentsAndTechnologies: ['JavaScript', 'React', 'Redux', 'Flow', 'Storybook', 'Material UI', 'Jest', 'Enzyme', 'Lodash', 'Ramda', 'Formik + Yup', 'Git']
         },

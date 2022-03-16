@@ -4,14 +4,23 @@ const INFO = {
     // experience settings
     experience: [
         {
-            duration: 'Oct 2020 – Nov 2020',
+            duration: 'Dec 2020 – till now',
+            company: 'Levi9',
+            project: 'LeasePlan',
+            projectDescription: '',
+            teamQuantity: 18,
+            position: 'Frontend Developer',
+            instrumentsAndTechnologies: ['TypeScript', 'Node.js', 'Express', 'React', 'Redux', 'Redux-Saga', 'styled-components', 'Jest', 'Enzyme', 'Sitecore', 'Salesforce']
+        },
+        {
+            duration: 'Oct 2020 – Dec 2020',
             company: 'Andersen',
             project: 'Choicely',
             projectDescription: 'application with many widgets and builders for developing articles, feeds, polls, surveys and mobile apps without coding',
             teamQuantity: 10,
             position: 'Frontend Developer',
             responsibilities: ['developing mobile apps builders'],
-            instrumentsAndTechnologies: ['JavaScript', 'React', 'Redux', 'redux-saga', 'react-beautiful-dnd', 'react-table', 'redux-form']
+            instrumentsAndTechnologies: ['JavaScript', 'React', 'Redux', 'Redux-Saga', 'react-beautiful-dnd', 'react-table', 'redux-form']
         },
         {
             duration: 'Sep 2020 – Oct 2020',
@@ -43,32 +52,29 @@ const INFO = {
             instrumentsAndTechnologies: ['JavaScript', 'SASS', 'JSON', 'PHP', 'MySQL', 'RedBeanPHP', 'Git']
         }
     ],
-    name: 'Timofey Dovgopol',
+    name: 'Tymofii Dovhopol',
     position: 'Frontend Developer',
     contacts: {
-        address: 'Chernihiv, Ukraine',
+        address: '<s>Chernihiv</s>, Ukraine',
         phone: '+38 073 123 13 10',
         email: 'timdovg@gmail.com'
     },
-    skills: {
-        programmingLanguages: ['JavaScript', 'TypeScript'],
-        architectureAndTechnology: ['React', 'Redux', 'Redux-Saga', 'Cypress', 'REST API (JS)', 'Material UI', 'Formik + Yup', 'SASS', 'Git']
-    },
+    skills: ['JavaScript', 'TypeScript', 'Node.js', 'Express', 'React', 'Redux', 'Redux-Saga', 'Jest', 'Enzyme', 'Cypress', 'Material UI', 'styled-components', 'Sitecore', 'Salesforce', 'Git'],
     languages: [
         {
             lang: 'English',
-            level: '(B1 Intermediate)'
+            level: '(B2 Upper intermediate)'
+        },
+        {
+            lang: 'Ukrainian',
+            level: '(C2 Proficient)'
         },
         {
             lang: 'Russian',
             level: '(C2 Proficient)'
         },
-        {
-            lang: 'Ukrainian',
-            level: '(C2 Proficient)'
-        }
     ],
-    interests: 'I really like reading biography of famous persons',
+    interests: 'I really love reading biographies of successful people',
     social: {
         linkedin: 'https://www.linkedin.com/in/timofey-dovgopol-15b013151/',
         skype: 'timdovg',
@@ -76,7 +82,7 @@ const INFO = {
     },
     education: [
         {
-            duration: '2020 - till now',
+            duration: '2020 - 2022',
             description: 'Chernihiv National University of Technology. Qualification awarded: Master\'s Degree in Computer engineering.'
         },
         {
@@ -130,8 +136,7 @@ document.querySelector('.email').innerHTML = `
 document.querySelector('.phone').innerHTML = INFO.contacts.phone;
 document.querySelector('.address').innerHTML = INFO.contacts.address;
 
-document.querySelector('.programming-languages').innerHTML = INFO.skills.programmingLanguages.join(', ');
-document.querySelector('.architecture-and-technology').innerHTML = INFO.skills.architectureAndTechnology.join(', ');
+document.querySelector('.skills').innerHTML = INFO.skills.join(', ');
 
 INFO.languages.forEach(lang => {
     document.querySelector('.languages').innerHTML += `
@@ -153,7 +158,7 @@ INFO.experience.forEach(exp => {
             ${exp.projectDescription ? `<b><em>Project description: </em></b> ${exp.projectDescription}<br />` : ''}
             ${exp.teamQuantity ? `<b><em>Team: </em></b> ${exp.teamQuantity} specialists<br />` : ''}
             <b><em>Position:</em></b> ${exp.position}<br />
-            <b><em>Responsibilities:</em></b> ${exp.responsibilities.join(', ')}<br />
+            ${exp.responsibilities ? `<b><em>Responsibilities:</em></b> ${exp.responsibilities.join(', ')}<br />` : ''}
             <b><em>Instruments and technologies:</em></b> ${exp.instrumentsAndTechnologies.join(', ')}
             <br />
         </div>

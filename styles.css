@@ -1,7 +1,7 @@
 /* avatar config */
 
 .image-avatar {
-    transform: scale(0.06);
+    transform: scale(.06);
     position: relative;
     bottom: 1167px;
     right: 1176px;
@@ -90,7 +90,7 @@ header {
 }
 
 .resume-wrap {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
     max-width: 960px;
     background: #f8f8f8;
     margin: 50px auto;
@@ -158,4 +158,8 @@ header {
 
 .block {
     margin-bottom: 20px;
+}
+
+.skills {
+    margin-top: 0;
 }

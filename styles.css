@@ -8,6 +8,8 @@
 }
 
 html {
+    min-width: 1420px;
+    min-height: 940px;
     box-sizing: border-box;
     letter-spacing: 1.37px;
 }

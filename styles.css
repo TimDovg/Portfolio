@@ -1,10 +1,9 @@
 /* avatar config */
 
 .image-avatar {
-    transform: scale(.06);
     position: relative;
-    bottom: 1167px;
-    right: 1176px;
+    bottom: 12px;
+    right: 6px;
 }
 
 html {

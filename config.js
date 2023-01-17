@@ -1,10 +1,16 @@
-// information config
-
 const INFO = {
-    // experience settings
     experience: [
         {
-            duration: 'Dec 2020 – till now',
+            duration: 'Oct 2022 – Dec 2022',
+            company: 'Bettor Faster',
+            project: 'Nemo',
+            projectDescription: 'Fintech, marketplace',
+            teamQuantity: 10,
+            position: 'Full Stack Developer',
+            instrumentsAndTechnologies: ['TypeScript', 'Node.js', 'Firebase', 'React', 'Material UI', 'styled-components', 'Jest', 'React Testing Library', 'Cypress']
+        },
+        {
+            duration: 'Dec 2020 – Dec 2022',
             company: 'Levi9',
             project: 'LeasePlan',
             projectDescription: '',
@@ -33,7 +39,7 @@ const INFO = {
             instrumentsAndTechnologies: ['JavaScript', 'TypeScript', 'React', 'Redux', 'Jest', 'Cypress', 'SASS/LESS', 'Git']
         },
         {
-            duration: 'Jun 2020 – Aug 2020',
+            duration: 'Jan 2020 – Aug 2020',
             company: 'Andersen',
             project: 'CRM Andersen',
             projectDescription: 'CRM system with different roles as a head for customers and company employees management',
@@ -53,13 +59,13 @@ const INFO = {
         }
     ],
     name: 'Tymofii Dovhopol',
-    position: 'Frontend Developer',
+    position: 'Frontend/Full Stack Developer',
     contacts: {
-        address: '<s>Chernihiv</s>, Ukraine',
-        phone: '+38 073 123 13 10',
+        address: 'Vinnytsya, Ukraine',
+        phone: '+38 067 910 95 46',
         email: 'timdovg@gmail.com'
     },
-    skills: ['JavaScript', 'TypeScript', 'Node.js', 'Express', 'React', 'Redux', 'Redux-Saga', 'Jest', 'Enzyme', 'Cypress', 'Material UI', 'styled-components', 'Sitecore', 'Salesforce', 'Git'],
+    skills: ['JavaScript', 'TypeScript', 'Node.js', 'Express', 'Firebase', 'React', 'Redux', 'Redux-Saga', 'Jest', 'Enzyme', 'React Testing Library', 'Cypress', 'Material UI', 'styled-components', 'Sitecore', 'Salesforce', 'Git'],
     languages: [
         {
             lang: 'English',
@@ -76,7 +82,7 @@ const INFO = {
     ],
     interests: 'I really love reading biographies of successful people',
     social: {
-        linkedin: 'https://www.linkedin.com/in/timofey-dovgopol-15b013151/',
+        linkedin: 'https://www.linkedin.com/in/tymofii-dovhopol-15b013151',
         skype: 'timdovg',
         github: 'https://github.com/TimDovg'
     },
